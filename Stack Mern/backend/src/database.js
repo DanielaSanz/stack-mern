@@ -13,6 +13,9 @@ mongoose.connect(URI, {
     //Para conectar
     useNewUrlParser: true,
     useCreateIndex: true,
+    //por la function findOneAndUpdate
+    useFindAndModify: false,
+    useUnifiedTopology: true
 });
 
 //Cuando se conecte para escuchar 
