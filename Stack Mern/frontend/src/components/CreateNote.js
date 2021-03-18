@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import DatePicker from 'react-datepicker';
-import 'react-datepicker/dist/react-datepicker.css';
-import axios from 'axios';
+import 'react-datepicker/dist/react-datepicker.css'
+import axios from 'axios'
 
 export default class CreateNote extends Component {
 
@@ -122,9 +122,7 @@ export default class CreateNote extends Component {
                             <DatePicker className="form-control" selected={this.state.date} onChange={this.onChangeDate} />
                         </div>
                         <button className="btn btn-primary">
-                            Save <i className="material-icons">
-                                assignment
-</i>
+                            Save 
                         </button>
                     </form>
                 </div>
