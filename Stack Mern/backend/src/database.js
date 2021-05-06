@@ -21,7 +21,7 @@ mongoose.connect(URI, {
 //Cuando se conecte para escuchar 
 const conection = mongoose.connection;
 
-//Una vez abierta esta coneccion quiero ver el console.log
+//Una vez abierta esta conexion quiero ver el console.log
 conection.once('open', () => {
     console.log('DDBB is connected');
 })
